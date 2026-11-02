@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 580" width="800" height="580" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f5f8fb"/><stop offset="1" stop-color="#e8f0f7"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b6c8d8"/><stop offset=".5" stop-color="#7895b0"/><stop offset="1" stop-color="#456985"/></linearGradient>
+  <linearGradient id="dark" x1="0" x2=".5" y1="0" y2="1"><stop offset="0" stop-color="#496886"/><stop offset="1" stop-color="#1d3551"/></linearGradient>
+  <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0 H0 V35" stroke="#cfdbe6" fill="none" stroke-width=".75"/></pattern>
+  <pattern id="teeth" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M0 0 H18 M0 0 V18" stroke="#ccd8e2" fill="none" stroke-width=".7"/></pattern>
+  <filter id="shadow" x="-30%" y="-40%" width="160%" height="200%"><feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#56718c" flood-opacity=".16"/></filter>
+</defs>
+<rect width="800" height="580" fill="url(#bg)"/>
+<rect width="800" height="580" fill="url(#grid)" opacity=".47"/>
+<path d="M50 84h85M50 84v85M750 84h-85M750 84v85M50 495h85M50 495v-85M750 495h-85M750 495v-85" fill="none" stroke="#adc1d4" stroke-width="2"/>
+<circle cx="400" cy="285" r="224" fill="none" stroke="#c9d8e5" stroke-width="1.6" stroke-dasharray="5 11"/>
+<path d="M96 460H704" stroke="#abc1d5" stroke-width="2" opacity=".8"/>
+
+<g filter="url(#shadow)" transform="translate(0 -4)">
+ <path d="M206 174 C198 264 224 357 296 401 C361 443 442 443 504 399 C574 353 599 264 589 174" fill="none" stroke="#b9d5e5" stroke-width="94" stroke-linecap="round"/>
+ <path d="M206 174 C198 264 224 357 296 401 C361 443 442 443 504 399 C574 353 599 264 589 174" fill="none" stroke="#eef6fa" stroke-width="77" stroke-linecap="round"/>
+ <g fill="#fdfefe" stroke="#91b3ca" stroke-width="4">
+  <rect x="166" y="150" width="80" height="61" rx="23" transform="rotate(-8 206 181)"/>
+  <rect x="166" y="216" width="81" height="63" rx="23" transform="rotate(-4 206 247)"/>
+  <rect x="193" y="282" width="72" height="67" rx="22" transform="rotate(-23 229 315)"/>
+  <rect x="235" y="343" width="65" height="63" rx="23" transform="rotate(-46 268 374)"/>
+  <rect x="292" y="384" width="67" height="66" rx="23" transform="rotate(-65 325 417)"/>
+  <rect x="357" y="394" width="67" height="66" rx="21"/>
+  <rect x="427" y="384" width="67" height="66" rx="23" transform="rotate(65 460 417)"/>
+  <rect x="484" y="343" width="65" height="63" rx="23" transform="rotate(46 517 374)"/>
+  <rect x="529" y="282" width="72" height="67" rx="22" transform="rotate(23 565 315)"/>
+  <rect x="553" y="216" width="81" height="63" rx="23" transform="rotate(4 594 247)"/>
+  <rect x="553" y="150" width="80" height="61" rx="23" transform="rotate(8 593 181)"/>
+ </g>
+ <path d="M206 174 C198 264 224 357 296 401 C361 443 442 443 504 399 C574 353 599 264 589 174" fill="none" stroke="#6dabc5" stroke-width="90" stroke-linecap="round" opacity=".16"/>
+ <path d="M206 174 C198 264 224 357 296 401 C361 443 442 443 504 399 C574 353 599 264 589 174" fill="none" stroke="#8abfd3" stroke-width="2.5" opacity=".85"/>
+</g>
+<path d="M240 150l-52-56H91M540 428l85 41h78" fill="none" stroke="#88a8bd" stroke-width="1.7" stroke-dasharray="5 6"/>
+<g fill="#7792a9" font-size="14" font-family="Arial,sans-serif" font-weight="600" letter-spacing="2"><text x="92" y="83">3D SCAN</text><text x="624" y="459">RESIN PRINT</text></g>
+</svg>

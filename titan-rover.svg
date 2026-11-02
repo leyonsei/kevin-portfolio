@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 580" width="800" height="580" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#f5f8fb"/><stop offset="1" stop-color="#e8f0f7"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b6c8d8"/><stop offset=".5" stop-color="#7895b0"/><stop offset="1" stop-color="#456985"/></linearGradient>
+  <linearGradient id="dark" x1="0" x2=".5" y1="0" y2="1"><stop offset="0" stop-color="#496886"/><stop offset="1" stop-color="#1d3551"/></linearGradient>
+  <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0 H0 V35" stroke="#cfdbe6" fill="none" stroke-width=".75"/></pattern>
+  <pattern id="teeth" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M0 0 H18 M0 0 V18" stroke="#ccd8e2" fill="none" stroke-width=".7"/></pattern>
+  <filter id="shadow" x="-30%" y="-40%" width="160%" height="200%"><feDropShadow dx="0" dy="12" stdDeviation="13" flood-color="#56718c" flood-opacity=".16"/></filter>
+</defs>
+<rect width="800" height="580" fill="url(#bg)"/>
+<rect width="800" height="580" fill="url(#grid)" opacity=".47"/>
+<path d="M50 84h85M50 84v85M750 84h-85M750 84v85M50 495h85M50 495v-85M750 495h-85M750 495v-85" fill="none" stroke="#adc1d4" stroke-width="2"/>
+<circle cx="400" cy="285" r="224" fill="none" stroke="#c9d8e5" stroke-width="1.6" stroke-dasharray="5 11"/>
+<path d="M96 460H704" stroke="#abc1d5" stroke-width="2" opacity=".8"/>
+
+<g filter="url(#shadow)">
+ <g transform="translate(0 20)">
+ <path d="M237 354H565L615 396H184Z" fill="url(#dark)" stroke="#19334e" stroke-width="6" stroke-linejoin="round"/>
+ <path d="M244 349L284 306H534L561 349Z" fill="url(#metal)" stroke="#2a4c69" stroke-width="6" stroke-linejoin="round"/>
+ <rect x="314" y="320" width="180" height="20" rx="5" fill="#dbe7f1"/>
+ <path d="M210 398L590 398" stroke="#274b6a" stroke-width="10"/>
+ <g fill="#27415c" stroke="#162c43" stroke-width="7"><circle cx="255" cy="410" r="53"/><circle cx="538" cy="410" r="53"/></g>
+ <g fill="#94adc3" stroke="#d8e4ee" stroke-width="7"><circle cx="255" cy="410" r="31"/><circle cx="538" cy="410" r="31"/></g>
+ <g fill="#2b4d6a"><circle cx="255" cy="410" r="9"/><circle cx="538" cy="410" r="9"/></g>
+ <rect x="327" y="284" width="101" height="30" rx="9" fill="#274661"/>
+ <circle cx="373" cy="283" r="24" fill="#b5c8d8" stroke="#294966" stroke-width="7"/>
+ <path d="M365 278 L420 190" stroke="#1e405f" stroke-width="42" stroke-linecap="round"/>
+ <path d="M365 278 L420 190" stroke="#91abc2" stroke-width="29" stroke-linecap="round"/>
+ <circle cx="421" cy="191" r="23" fill="#b9ccdc" stroke="#294969" stroke-width="8"/>
+ <path d="M426 188 L499 135" stroke="#1e405f" stroke-width="34" stroke-linecap="round"/>
+ <path d="M426 188 L499 135" stroke="#94adc2" stroke-width="20" stroke-linecap="round"/>
+ <circle cx="500" cy="133" r="17" fill="#b6c9da" stroke="#294a69" stroke-width="6"/>
+ <path d="M512 134l33-4" stroke="#315a7a" stroke-width="18" stroke-linecap="round"/>
+ <path d="M547 129l23-21M547 129l26 17" stroke="#254460" stroke-width="10" stroke-linecap="round"/>
+ </g>
+</g>
+<path d="M590 120H683M590 120L552 129M115 275H230L283 307" stroke="#8faabe" fill="none" stroke-width="1.8" stroke-dasharray="5 5"/>
+<g fill="#708eaa" font-size="14" font-family="Arial,sans-serif" font-weight="600" letter-spacing="2"><text x="595" y="109">GRIPPER</text><text x="114" y="263">CHASSIS</text></g>
+</svg>
